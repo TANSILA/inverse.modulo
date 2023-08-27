@@ -11,5 +11,8 @@ function myfunc()
         alert("the possible integer to get modulo value = 1 for your inverse is : " + i);
         break;
      }
+        else{
+            alert("This equation has no solution!<br>
+This is because"+ variable1 "and" + variable2 "aren't coprime")
     }
 }
