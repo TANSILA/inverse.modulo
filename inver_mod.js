@@ -16,3 +16,4 @@ function myfunc()
 This is because"+ variable1 "and" + variable2 "aren't coprime")
     }
 }
+    }
