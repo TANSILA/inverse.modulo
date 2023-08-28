@@ -3,6 +3,8 @@ function myfunc()
     const variable1 = document.getElementById("yoh").value;
     const variable2 = document.getElementById("yuh").value;
     let i=1;
+    if(isNull(variable1) || isNull(variable2))
+        alert("please fill all the fields");
     let multi;
     for(i=1;i<=50;i++)
     {
