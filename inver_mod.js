@@ -4,7 +4,7 @@ function myfunc()
     const variable2 = document.getElementById("yuh").value;
     let i=1;
     if(variable1 === undefined || variable2 === undefined )
-        alert("please fill all the fields");
+        alert(" You haven't provided both values \n please fill all the fields");
     let multi;
     for(i=1;i<=50;i++)
     {
