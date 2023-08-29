@@ -1,7 +1,7 @@
 function myfunc()
 {
-    const variable1 = document.getElementById("yoh");
-    const variable2 = document.getElementById("yuh");
+    const variable1 = document.getElementById("yoh").value;
+    const variable2 = document.getElementById("yuh").value;
     let i=1;
     if(variable1 === undefined || variable2 === undefined )
     {
