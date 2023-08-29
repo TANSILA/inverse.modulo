@@ -3,11 +3,6 @@ function myfunc()
     const variable1 = document.getElementById("yoh").value;
     const variable2 = document.getElementById("yuh").value;
     let i=1;
-    if(variable1 === undefined)
-    {
-        alert(" You haven't provided both values \n please fill all the fields");
-        break;
-    }
     let multi;
     for(i=1;i<=50;i++)
     {
