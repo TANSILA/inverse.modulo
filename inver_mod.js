@@ -4,11 +4,6 @@ function myfunc()
     const variable2 = document.getElementById("yuh").value;
     let i=1;
     let multi;
-    if(isEmpty(variable1) || isEmpty(variable2))
-    {
-        alert("please fill all the field");
-        break;
-    }
     for(i=1;i<=50;i++)
     {
      multi = (variable1 * i);
