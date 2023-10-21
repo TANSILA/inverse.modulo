@@ -1,0 +1,53 @@
+.para {
+    color:cyan
+}
+body {
+    background-image: url("back.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat:initial;
+}
+.text_box {
+    height: 25px;
+    border-color: blue;
+}
+.text_box:hover {
+    box-shadow: 5px 10px 12px red;
+}
+.b {
+    background-color: black;
+    color: white;
+}
+.b:hover {
+    background-color:green;
+    color: white;
+    transition-duration: 3s;
+}
+.sp1 {
+    color: white;
+}
+.sp2 {
+    color: blue;
+}
+@media only screen and (min-700px)
+{
+    body {
+        background-image: url("back.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat:initial;
+    }
+
+.text_box {
+    border-radius:20px;
+    border-color: blue;
+    padding: 200px 100px;
+    color:red;
+}
+.b {
+    background-color: black;
+    color: white;
+    margin-left: 300px;
+    padding: 20px 20px;
+}
+}
